@@ -58,8 +58,13 @@
         https://firebase.google.com/docs/web/setup#available-libraries -->
 
     <script>
-      // Your web app's Firebase configuration
-    
+
+    // Your web app's Firebase configuration
+   
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const db=firebase.firestore();
     </script>
     
     <script src="./script/chat.js"></script>
